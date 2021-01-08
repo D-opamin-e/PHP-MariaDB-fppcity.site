@@ -1,0 +1,194 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+
+@font-face{font-family:'OpenSans-SemiBold.woff'; src:url('/fonts/OpenSans-SemiBold.woff')}
+body, table, div, p {font-family:'OpenSans-SemiBold.woff';}
+/* @font-face {
+    font-family: 'Nevis-Bold';
+    src:url('fonts/Nevis-Bold.ttf.woff') format('woff'),
+        url('fonts/Nevis-Bold.ttf.svg#Nevis-Bold') format('svg'),
+        url('fonts/Nevis-Bold.ttf.eot'),
+        url('fonts/Nevis-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+} */
+
+.hurts_body {
+    background-color: #000000;
+}
+
+.hurts_nav {
+    padding-top: 14px;
+    padding-bottom: 5px;
+    background-color: #000;
+    font-family: 'nanumsquare';
+} 
+
+.hurts_nav h1 {
+    font-family: 'Nevis-Bold';
+    font-size: 15px;
+    text-align: left;
+    font-family: 'nanumsquare';
+    color: #fff;
+}
+
+.hurts_nav a {
+    font-size: 15px;
+    text-align: left;
+    font-family: 'nanumsquare';
+    color: #fff;
+    text-decoration: none;
+}
+
+.hurts_nav a:hover {
+    font-size: 15px;
+    text-align: left;
+    font-family: 'nanumsquare';
+    color: #fff;
+    text-decoration: none;
+}
+
+.hurts_main_alert {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+.hurts_main_alert h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'nanumsquare';
+    text-align: left;
+}
+ 
+.hurts_main_alert p {
+    font-size: 15px;
+    font-family: 'nanumsquare';
+    font-weight: 500;
+    text-align: left;
+}
+
+.hurts_main_alert a {
+    font-size: 15px;
+    font-family: 'nanumsquare';
+    text-align: left;
+    font-weight: 500;
+    color: #14a9ff;
+    text-decoration: none;
+}
+
+.hurts_main_alert a:hover {
+    color: #14a9ff;
+    text-decoration: none;
+}
+
+.hurts_login {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+}
+
+.hurts_login h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'nevis', 'nanumsquare';
+    text-align: center;
+}
+ 
+.hurts_login p {
+    font-size: 20px;
+    font-family: 'nanumsquare';
+    font-weight: 500;
+    text-align: center;
+}
+
+.hurts_footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hurts_footer p {
+    font-size: 12px;
+    text-align: left;
+    font-family: 'nanumsquare';
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.hurts_footer a {
+    font-size: 12px;
+    opacity: 0.8;
+    font-family: 'nanumsquare';
+    text-decoration: none;
+}
+
+.hurts_footer ab {
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+.hurts_footer a:hover {
+    font-size: 12px;
+    opacity: 0.8;
+    font-family: 'nanumsquare';
+    text-decoration: none;
+}
+
+.hurts_input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ffffff;
+    font-family: 'nanumsquare';
+    border-radius: 0px !important;
+    outline: none;
+}
+
+.hurts_input::placeholder {
+    color: #ffffff;
+}
+
+.hurts_input:focus {
+    outline: none;
+}
+
+.hurts_btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'nanumsquare';
+    outline: none;
+}
+
+@media ( max-width: 400px ) {
+    .hurts_btn {
+        padding: .175rem .65rem;
+    }
+}
+
+.hurts_btn:focus {
+    outline: none;
+}
+
+.login_max_width {
+    max-width: 400px;
+    margin: 0 auto;
+}
