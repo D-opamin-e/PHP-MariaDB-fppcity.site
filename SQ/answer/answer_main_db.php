@@ -16,7 +16,7 @@
   <?php
     $servername = "localhost";
     $username = "root";
-    $password = "dopamine2312@@";
+    $password = "비버너어언";
     $dbname = "sunam_test";
     
     // Create connection
