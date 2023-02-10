@@ -44,7 +44,7 @@ if(!isset($_SESSION['userid'])) //세션이 존재하지 않을 때
       <?php
       $servername = "localhost";
       $username = "root";
-      $password = "dopamine2312@@";
+      $password = "비밀번호!";
       $dbname = "sunam_test";
 
       // Create connection
