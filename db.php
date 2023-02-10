@@ -2,7 +2,7 @@
 	session_start();
 	header('Content-Type: text/html; charset=utf-8'); // utf-8인코딩
 
-	$db = new mysqli("localhost","root","dopamine2312@@","sunam_test");
+	$db = new mysqli("localhost","root","비밀번호!","sunam_test");
 	$db->set_charset("utf8");
 
 	function mq($sql)
