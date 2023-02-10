@@ -2,7 +2,7 @@
     session_start();
     $id = $_POST['id'];
     $pw = $_POST['pw'];
-    $mysqli = mysqli_connect("localhost","root","dopamine2312@@","sunam_test");
+    $mysqli = mysqli_connect("localhost","root","비밀번호!","sunam_test");
     
     $check = "SELECT * FROM sq WHERE u_name='$id'";
     $result = $mysqli->query($check); 
