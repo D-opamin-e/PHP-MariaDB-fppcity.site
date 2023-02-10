@@ -16,7 +16,7 @@
   <?php
     $servername = "localhost";
     $username = "root";
-    $password = "dopamine2312@@";
+    $password = "비밀번호!";
     $dbname = "sunam_test";
 
     $title = $_POST['title'];
