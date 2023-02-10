@@ -41,7 +41,7 @@
       <?php
       $servername = "localhost";
       $username = "root";
-      $password = "dopamine2312@@";
+      $password = "비밀번호!";
       $dbname = "sunam_test";
       $ip = $_SERVER['REMOTE_ADDR'];
       $id = $_SESSION['id'];
