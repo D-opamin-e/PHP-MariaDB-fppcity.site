@@ -1,0 +1,274 @@
+
+
+    @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+    @import url("https://use.typekit.net/djv2hjd.css");
+
+@font-face {
+    font-family: 'Nevis-Bold';
+    src:url('fonts/Nevis-Bold.ttf.woff') format('woff'),
+        url('fonts/Nevis-Bold.ttf.svg#Nevis-Bold') format('svg'),
+        url('fonts/Nevis-Bold.ttf.eot'),
+        url('fonts/Nevis-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+
+.hurts_body {
+    background-color: #ffffff;
+    font-family: proxima-nova, 'nanumsquare', sans-serif;
+}
+
+.hurts_nav {
+    padding-top: 14px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 0, 0);
+} 
+
+.hurts_nav h1 {
+    font-family: 'Nevis-Bold';
+    font-size: 15px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.hurts_nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hurts_nav a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.hurts_main {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+@media ( max-width: 400px ) {
+    .hurts_main {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+}
+
+.hurts_main h1 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+@media ( max-width: 400px ) {
+    .hurts_main h1 {
+        font-size: 30px;
+    }
+}
+
+.hurts_main h2 {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.hurts_main a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0077ff;
+}
+
+.hurts_main a:hover {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0077ff;
+}
+
+.hurts_table_box {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    border: 1px #000000;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+.hurts_table_box h1 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.hurts_table_box p {
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.hurts_table_box a {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.hurts_table_box a:hover {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.hurts_table_box i {
+    vertical-align: -1px;
+    color: #427bf7;
+}
+
+.hurts_write {
+}
+
+.hurts_write i {
+    vertical-align: -1px;
+}
+
+.hurts_table {
+}
+
+.hurts_table_list {
+    letter-spacing: 1.2px;  
+}
+
+.hurts_footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hurts_footer p {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.hurts_footer a {
+    font-size: 12px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.hurts_footer a:hover {
+    font-size: 12px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.hurts_footer i {
+    vertical-align: -0.5px;
+}
+
+.hurts_input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #000000;
+    border-radius: 0px !important;
+    outline: none;
+}
+
+.hurts_input:focus {
+    outline: none;
+}
+
+.hurts_btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    outline: none;
+}
+
+@media ( max-width: 400px ) {
+    .hurts_btn {
+        padding: .175rem .65rem;
+    }
+}
+
+.hurts_btn:focus {
+    outline: none;
+}
+
+.filebox input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+}
+
+.filebox label { 
+    display: inline-block; 
+    padding: .5em .75em; 
+    color: #999; 
+    font-size: inherit; 
+    line-height: normal; 
+    vertical-align: middle; 
+    background-color: #fdfdfd;
+     cursor: pointer;
+      border: 1px solid #ebebeb; 
+      border-bottom-color: #e2e2e2;
+       border-radius: .25em;
+     } 
+     .filebox input[type="file"] {
+          /* 파일 필드 숨기기 */
+           position: absolute; 
+           width: 1px; 
+           height: 1px;
+            padding: 0;
+             margin: -1px;
+              overflow: hidden;
+               clip:rect(0,0,0,0); 
+               border: 0;
+            }
+
+
+            .box-radio-input input[type="radio"]{
+                display:none;
+            }
+            
+            .box-radio-input input[type="radio"] + span{
+                display:inline-block;
+                background:none;
+                border:1px solid #dfdfdf;    
+                padding:0px 10px;
+                text-align:center;
+                height:35px;
+                line-height:33px;
+                font-weight:500;
+                cursor:pointer;
+            }
+            
+            .box-radio-input input[type="radio"]:checked + span{
+                border:1px solid #23a3a7;
+                background:#23a3a7;
+                color:#fff;
+            }
+             
+
+

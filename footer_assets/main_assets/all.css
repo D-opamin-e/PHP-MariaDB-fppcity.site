@@ -1,0 +1,42 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1px;
+  line-height: 1.4;
+  word-break: keep-all;
+  font-family: 'NanumSquare', sans-serif !important;
+} 
+
+/* Header */
+
+/* footer */
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: #212121;
+  color: #ffffff;
+}
+
+footer h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer p {
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}

@@ -1,0 +1,208 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.1px;
+    line-height: 1.4;
+    word-break: keep-all;
+    font-family: 'NanumSquare', sans-serif !important;
+}
+
+/* Header */
+
+header {
+  height:100%;
+  width:100%;
+  overflow:hidden;
+  background-size: cover;
+  background-color: #ffffff;
+  background-image: url("sunam.png");
+}
+
+header h1 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px #000000c5;
+  font-weight: 700;
+  text-align: center;
+}
+
+header p {
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 2px 2px #2c2c2c;
+  text-align: center;
+}
+
+.header_container {
+  height:100%;
+  width:100%;
+  display:table;
+}
+
+.header_cell {
+  vertical-align:middle;
+  height:100%;
+  display:table-cell;
+}
+
+/* nav */
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+  color: #007bff;
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: #343a40;
+}
+
+/* Body */
+
+.main_first {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #f5f5f5;
+}
+
+.main_first h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.main_first p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main_first a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main_first a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main_two {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+
+.main_two h1 {
+  text-align: right;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.main_two p {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main_two_left {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+
+.main_two_left h1 {
+  text-align: left;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.main_two_left p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main_two_left a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main_two_left a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.back-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* footer */
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #212121;
+  color: #ffffff;
+}
+
+footer h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer p {
+  opacity: 0.7;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}

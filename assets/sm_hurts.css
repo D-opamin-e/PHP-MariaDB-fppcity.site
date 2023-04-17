@@ -1,0 +1,290 @@
+@media (prefers-color-scheme: dark) {
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+
+
+@font-face {
+    font-family: 'Nevis-Bold';
+    src:url('fonts/Nevis-Bold.ttf.woff') format('woff'),
+        url('fonts/Nevis-Bold.ttf.svg#Nevis-Bold') format('svg'),
+        url('fonts/Nevis-Bold.ttf.eot'),
+        url('fonts/Nevis-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+
+input[type=password] {
+    font-family: "/fonts/OpenSans-SemiBold.woff";
+    }
+
+.hurts_body {
+    background-color: #ffffff;
+}
+
+.hurts_nav {
+    padding-top: 14px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'nanumsquare';
+} 
+
+.hurts_nav h1 {
+    font-family: 'Nevis-Bold';
+    font-size: 15px;
+    text-align: left;
+    font-family: 'nanumsquare';
+    color: rgb(255, 255, 255);
+}
+
+.hurts_nav a {
+    font-size: 15px;
+    text-align: left;
+    font-family: 'nanumsquare';
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hurts_nav a:hover {
+    font-size: 15px;
+    text-align: left;
+    font-family: 'nanumsquare';
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hurts_main_alert {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #000000;
+}
+
+.hurts_main_alert h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'nanumsquare';
+    text-align: left;
+}
+ 
+.hurts_main_alert p {
+    font-size: 15px;
+    font-family: 'nanumsquare';
+    font-weight: 500;
+    text-align: left;
+}
+
+.hurts_main_alert a {
+    font-size: 14px;
+    font-family: 'nanumsquare';
+    text-align: left;
+    font-weight: 500;
+    color: #14a9ff;
+    text-decoration: none;
+}
+
+.hurts_main_alert a:hover {
+    color: #14a9ff;
+    text-decoration: none;
+}
+
+.hurts_login {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #000000;
+}
+
+.hurts_login h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'nevis', 'nanumsquare';
+    text-align: center;
+}
+ 
+.hurts_login p {
+    font-size: 20px;
+    font-family: 'nanumsquare';
+    font-weight: 500;
+    text-align: center;
+}
+
+.hurts_footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hurts_footer p {
+    font-size: 12px;
+    text-align: left;
+    font-family: 'nanumsquare';
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.hurts_footer a {
+    font-size: 12px;
+    opacity: 0.8;
+    font-family: 'nanumsquare';
+    text-decoration: none;
+}
+
+.hurts_footer ab {
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+.hurts_footer a:hover {
+    font-size: 12px;
+    opacity: 0.8;
+    font-family: 'nanumsquare';
+    text-decoration: none;
+}
+
+.hurts_input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #000000;
+    font-family: 'nanumsquare';
+    border-radius: 0px !important;
+    outline: none;
+}
+
+.hurts_input::placeholder {
+    color: #ffffff;
+}
+
+.hurts_input:focus {
+    outline: none;
+}
+
+.hurts_btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'nanumsquare';
+    outline: none;
+}
+
+@media ( max-width: 400px ) {
+    .hurts_btn {
+        padding: .175rem .65rem;
+    }
+}
+
+.hurts_btn:focus {
+    outline: none;
+}
+
+.login_max_width {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.hurts_table_box {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    border: 1px #000000;
+    border-style: solid;
+    border-radius: 1px;
+}
+
+.hurts_table_box h1 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.hurts_table_box p {
+    font-size: 12px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.hurts_table_box a {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.hurts_table_box a:hover {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.hurts_table_box i {
+    vertical-align: -1px;
+    color: #427bf7;
+}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
+    --bg-color: #fff;
+    --box-color: rgba(0,0,0,0.05);
+    --color1: #ccc;
+    --color2: #999;
+    --color3: #000;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #000;
+      --box-color: rgba(255,255,255,0.15);
+      --color1: #999;
+      --color2: #ccc;
+      --color3: #fff;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  } */
+  
