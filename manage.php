@@ -42,7 +42,7 @@
             <?php
       $servername = "localhost";
       $username = "root";
-      $password = "dopamine2312@@";
+      $password = ""******@@";
       $dbname = "sunam_test";
 
       // Create connection
