@@ -1,5 +1,5 @@
 <?php
-$mysqli = mysqli_connect("localhost","root","dopamine2312@@","sunam_test");
+$mysqli = mysqli_connect("localhost","root",""******","sunam_test");
 
 
 function mq($sql){
