@@ -2,7 +2,7 @@
     session_start();
     $id = $_POST['id'];
     $pw = $_POST['pw'];
-    $mysqli = mysqli_connect("localhost","root","dopamine2312@@","sunam_test");
+    $mysqli = mysqli_connect("localhost","root","******","sunam_test");
     
     $check = "SELECT * FROM user WHERE userid='$id'";
     $result = $mysqli->query($check); 
